@@ -1,13 +1,14 @@
-﻿namespace CalculadoraApp
+﻿using System;
+
+namespace CalculadoraApp
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
             Console.WriteLine("--- Calculadora del Equipo ---");
             Console.WriteLine("Opciones:");
-            // Aquí irán las opciones del menú
-
+            Console.WriteLine("1. Sumar");
         }
     }
 }

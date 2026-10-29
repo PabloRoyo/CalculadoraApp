@@ -1,10 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace CalculadoraApp
+﻿namespace CalculadoraApp
 {
-    internal class Operaciones
+    public class Operaciones
     {
+        public double Sumar(double a, double b)
+        {
+            return a + b;
+        }
     }
 }
